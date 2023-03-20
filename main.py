@@ -174,9 +174,12 @@ class BayesClassifier:
                 freqs[word] = 1
 
 print("")
-print("--------------------bruh--------------------")
+print("--------------------Classifier Below--------------------")
 print("")
 
 b = BayesClassifier()
+
+print("")
+
 text = input("What do you want to classify?\n")
 print(b.classify(text))
